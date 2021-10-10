@@ -1,0 +1,19 @@
+{
+  "name": "@digvan/asset-core",
+  "version": "0.0.1",
+  "description": "Common logic between platforms for Asset app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fqd511/asset-core.git"
+  },
+  "author": "digvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fqd511/asset-core/issues"
+  },
+  "homepage": "https://github.com/fqd511/asset-core#readme"
+}

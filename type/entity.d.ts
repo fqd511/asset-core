@@ -1,3 +1,9 @@
+// common attribute
+interface ICommonAttr {
+	created_time:number | string, 
+	update_time:number | string, 
+}
+
 // user
 interface IUser extends ICommonAttr {
 	name:string, 
@@ -11,8 +17,9 @@ interface IRecord extends ICommonAttr {
 	balance:number, 
 	note:string, 
 	tag:record_tag[], 
-	type:record_type[],
+	type:record_type[], 
 }
+
 // account
 interface Account extends ICommonAttr {
 	type:account_type, 
@@ -20,11 +27,7 @@ interface Account extends ICommonAttr {
 	title:string, 
 	balance:number; 	// ￥100.00 => 10000
 }
-// common attribute
-interface ICommonAttr {
-	created_time:number | string, 
-	update_time:number | string, 
-}
+
 // financial report record
 interface IReportRecord extends ICommonAttr {
 account_id:string, 
@@ -38,6 +41,12 @@ interface ITag extends ICommonAttr {
 	id:string, 
 	label:string, 
 }
-interface record_tag extends ITag{}
-interface account_type extends ITag{}
-interface record_type extends ITag{}
+interface record_tag extends ITag {}
+interface account_type extends ITag {}
+interface record_type extends ITag {}
+
+interface Log extends ICommonAttr {
+	type:string, 
+	label:string, 
+	desc:string, 
+}
