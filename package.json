@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fqd511/asset-core/issues"
   },
-  "homepage": "https://github.com/fqd511/asset-core#readme"
+  "homepage": "https://github.com/fqd511/asset-core#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "rollup": "^2.58.0"
+  }
 }

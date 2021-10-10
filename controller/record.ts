@@ -1,6 +1,6 @@
 /**
- * 
- * @param param0 
+ *
+ * @param record
  */
 export function add(record:IRecord ) {
 
